@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.main {
+    background-image: url("assets/bg.jpg");
+    height: 110vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+
+.nav {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    padding-top: 26px;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.nav .logo {
+    width: 145px;
+    position: relative;
+}
+
+
+
+.nav .lang {
+    border: 1px solid rgb(255, 255, 255);
+    height: 25px;
+    display: flex;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    padding: auto;
+    padding-top: 9px;
+    padding-left: 13px;
+    border-radius: 4px;
+}
+
+.nav .lang1 {
+    padding-right: 12px;
+}
+
+.nav .buttons {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 0px;
+
+
+
+}
+
+.buttons .signin {
+    margin-right: 14px;
+    width: auto;
+    padding-right: 13px;
+    background-color: red;
+    /* border-radius: 4px; */
+    border: none;
+
+
+
+
+
+}
+
+.lang img {
+    filter: invert();
+    padding-right: 9px;
+    height: 20px;
+}
+
+
+.main .box {
+    background-color: black;
+    height: 106vh;
+    width: 100vw;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow-y: hidden;
+    z-index: 10;
+
+}
+
+.text .one {
+    font-size: 55px;
+
+}
+
+.text :nth-child(3) {
+    padding-top: 23px;
+    font-size: 20px;
+    word-spacing: -3px;
+}
+
+.text :nth-child(4) {
+    padding-top: 33px;
+    font-size: 17px;
+
+}
+
+.login {
+    margin-top: 30px;
+}
+
+.login input {
+    /* color: solid white; */
+    outline: none;
+    font-size: 17px;
+
+    /* border: 2px solid white; */
+    padding: 20px 190px 18px 16px;
+
+    background-color: rgba(0, 0, 0, 0.353);
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.login button {
+    margin: 15px 5px 5px 5px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    border: 0px solid white;
+    background-color: red;
+    padding: 15px 22px 18px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.line {
+    border: 4px solid red;
+    border-bottom: none;
+    height: 100px;
+    width: 111vw;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    background-color: black;
+    justify-self: center;
+    position: absolute;
+    /* position: relative; */
+
+    bottom: -84px;
+
+    /* top: -65px; */
+    background-image: linear-gradient(blue -200px, black);
+}
+
+.main2 {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.main2 .head2 {
+    padding-left: 10%;
+    font-size: 23px;
+
+}
+
+.movies {
+
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin: 30px 0px 68px 0px;
+
+}
+
+.movies img {
+    border-radius: 10px;
+
+}
+
+
+.templates {
+    height: 38%;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.templates div {
+    position: relative;
+    padding: 16px;
+    background-image: linear-gradient(to bottom right, #1c2448, #2c0d1e);
+    word-wrap: break-word;
+    margin-top: 24px;
+    width: 17%;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0);
+
+}
+.templates div b{
+    font-size: x-large;
+}
+
+.templates span{
+    color: rgb(178, 177, 177);
+    word-wrap: break-word;
+}
+
+.templates div img {
+    height: 62px;
+    width: 65px;
+    border-radius: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+.main3{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding-top: 20px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 13px;
+    
+}
+.faq div{
+    padding-left: 28px;
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 79vw;
+    height: 85px;
+    align-items: center;
+   
+}
+.last{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
